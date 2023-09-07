@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="GoDaddyTests" verbose="1">
+
+    <test name="AllTests">
+        <classes>
+            <class name="GoDaddyTests.GoDaddyTests"/>
+        </classes>
+    </test>
+
+    <parameter name="browser" value="firefox"></parameter>
+</suite>
